@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "44466364-6781-406f-ae6f-f416dbb6e42c",
+		"name": "HelloWorld",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38818298"
+	},
+	"item": [
+		{
+			"name": "Get hello world",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/hello",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"hello"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
